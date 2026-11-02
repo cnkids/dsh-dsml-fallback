@@ -1,6 +1,6 @@
 {
   "name": "dsh-dsml-fallback",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "DSH 兜底插件：把模型输出里的 DSML 文本工具调用解析成结构化 tool-call 块。",
   "license": "MIT",
   "author": "cnkids",

@@ -54,6 +54,8 @@ npm：<https://www.npmjs.com/package/dsh-dsml-fallback>
 
 ## 更新记录
 
+- **0.1.2** — 仅文档：同步 npm 包内 README（安装说明去掉「发布到 npm 后」，补充仓库与
+  npm 链接）。功能与 0.1.1 相同。
 - **0.1.1** — 修复参数开标签带 `string="true"` 等属性时参数被丢弃、工具只能收到 `{}`
   的问题（表现为 `missing required property`）。开标签属性顺序也不再影响解析。
 - **0.1.0** — 首个版本。
