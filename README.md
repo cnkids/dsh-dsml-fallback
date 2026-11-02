@@ -26,10 +26,13 @@ DSH 只认结构化的 `tool_calls`，这种文本会被当成普通回复显示
 ## 安装
 
 ```bash
-dsh plugin --profile web add dsh-dsml-fallback   # 发布到 npm 后
+dsh plugin --profile web add dsh-dsml-fallback
 # 或本地目录：
 dsh plugin --profile web add /path/to/dsh-dsml-fallback
 ```
+
+仓库：<https://github.com/cnkids/dsh-dsml-fallback> ·
+npm：<https://www.npmjs.com/package/dsh-dsml-fallback>
 
 装完重启 `dsh web` 生效。
 
