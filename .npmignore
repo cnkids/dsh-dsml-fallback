@@ -1,0 +1,6 @@
+# 说明：package.json 的 files 白名单优先，本文件仅作兜底。
+# 打包内容以 files 字段为准：lib/、cordis.patch.yml、README.md（LICENSE 由 npm 自动带上）。
+_bak/
+test/
+.DS_Store
+*.log

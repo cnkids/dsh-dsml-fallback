@@ -1,0 +1,6 @@
+node_modules/
+_bak/
+.DS_Store
+*.log
+npm-debug.log*
+.npm-cache/

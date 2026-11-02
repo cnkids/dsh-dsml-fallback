@@ -1,0 +1,10 @@
+# dsh-dsml-fallback bundle patch: inserts the host-only stream plugin row into
+# the profile roster (the config-tree root IS the plugin list).
+#
+# Activate with:
+#   dsh plugin --profile web add dsh-dsml-fallback
+# (`dsh plugin add` registers the name in dsh.profile.bundles automatically;
+#  restart `dsh web` afterwards.)
+- insert:
+    - id: dsh-dsml-fallback
+      name: 'dsh-dsml-fallback'

@@ -1,0 +1,43 @@
+{
+  "name": "dsh-dsml-fallback",
+  "version": "0.1.1",
+  "description": "DSH 兜底插件：把模型输出里的 DSML 文本工具调用解析成结构化 tool-call 块。",
+  "license": "MIT",
+  "author": "cnkids",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnkids/dsh-dsml-fallback.git"
+  },
+  "homepage": "https://github.com/cnkids/dsh-dsml-fallback#readme",
+  "bugs": {
+    "url": "https://github.com/cnkids/dsh-dsml-fallback/issues"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node test/dsml.test.mjs && node test/stream.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "dsml",
+    "tool-call"
+  ]
+}
